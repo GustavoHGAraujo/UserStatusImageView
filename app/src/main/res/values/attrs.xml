@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="UserStatusImageView">
+        <attr name="image_background" format="integer" />
+        <attr name="status" format="enum">
+            <enum name="offline" value="0" />
+            <enum name="online" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
